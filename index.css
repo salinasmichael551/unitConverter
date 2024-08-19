@@ -1,0 +1,75 @@
+/*semantics*/
+
+body {
+    color: #1b263b;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(converter.webp);
+    background-size: cover;
+}
+
+header{
+    background: #ffcfd2;
+    text-align: center;
+    padding: 30px
+}
+/* grouped semantics*/
+
+h1, h2, body{
+    margin: 0;
+}
+
+h1, h2, header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* classes and IDs*/
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    border: solid 3px #1b263b;
+    border-radius: 1%;
+}
+
+
+.metric-input{
+    padding: 15px;
+    border: solid 2px #1b263b;
+    border-radius: 5%;
+    width: 110px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    background: #ffcfd2;
+}
+
+.convert{
+    background: white;
+    border: none;
+    border-radius: 5%;
+    padding: 15px 30px;
+    color: #1b263b;
+    margin-top: 15px;
+}
+
+.break{
+    display: block;
+}
+
+/* grouped classes and IDs*/
+   
+.convert, .metric-input{
+    font-family: inherit;
+    font-size: x-large;
+}
+
+.length, .volume, .mass{
+    padding: 20px 0 40px 0;
+    border: solid 1px white;
+    background:#fb6f92;
+}
